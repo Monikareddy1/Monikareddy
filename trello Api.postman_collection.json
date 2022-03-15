@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "ac86e801-551e-4da8-9a95-a762318e006a",
+		"name": "trello Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get a board",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/QAYXYU4C?key=5f9af4fecd2277a4ca4f08a601ab2977&token=475a71288021a75a4e0e53fe2485839ae5ec3f489db0ef5278edc4f0c6f0526d",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"QAYXYU4C"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "5f9af4fecd2277a4ca4f08a601ab2977"
+						},
+						{
+							"key": "token",
+							"value": "475a71288021a75a4e0e53fe2485839ae5ec3f489db0ef5278edc4f0c6f0526d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=Monu&key=5f9af4fecd2277a4ca4f08a601ab2977&token=475a71288021a75a4e0e53fe2485839ae5ec3f489db0ef5278edc4f0c6f0526d",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Monu"
+						},
+						{
+							"key": "key",
+							"value": "5f9af4fecd2277a4ca4f08a601ab2977"
+						},
+						{
+							"key": "token",
+							"value": "475a71288021a75a4e0e53fe2485839ae5ec3f489db0ef5278edc4f0c6f0526d"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/622ef374c4c39923bc9a03e1?key=5f9af4fecd2277a4ca4f08a601ab2977&token=475a71288021a75a4e0e53fe2485839ae5ec3f489db0ef5278edc4f0c6f0526d",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						"622ef374c4c39923bc9a03e1"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "5f9af4fecd2277a4ca4f08a601ab2977"
+						},
+						{
+							"key": "token",
+							"value": "475a71288021a75a4e0e53fe2485839ae5ec3f489db0ef5278edc4f0c6f0526d"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
